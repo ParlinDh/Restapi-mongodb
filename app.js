@@ -13,7 +13,7 @@ db.mongoose
         useUnifiedTopology: true
     })
     .then(() => {
-        console.log(`Database Connected`)
+        console.log(`Database Connected Successfull`)
     }).catch((err) => {
         console.log(`Cannot connect to database`, err);
         process.exit()
