@@ -1,0 +1,29 @@
+{
+  "name": "restapi-mongodb",
+  "version": "1.0.0",
+  "description": "resfull api express  mongodb",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ParlinDh/Restapi-mongodb.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "mongodb"
+  ],
+  "author": "ParlinDh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ParlinDh/Restapi-mongodb/issues"
+  },
+  "homepage": "https://github.com/ParlinDh/Restapi-mongodb#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9"
+  }
+}
