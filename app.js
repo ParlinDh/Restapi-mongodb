@@ -25,6 +25,8 @@ app.get('/', (req, res) => {
     });
 })
 
+require('./app/routes/user.routes')(app)
+
 const PORT = 8000
 app.listen(PORT, () => {
     console.log(`Server started on http://localhost:${PORT}`);
